@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Learniverse</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Elevate Your Learning Experience</string>
+    <string name="sign_in_text">Login to your account</string>
+    <string name="sign_up_text">Register your account</string>
+    <string name="sign_up">Register</string>
+    <string name="hello">Hello</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_yet_registered">Not yet registered? Signup Now</string>
+    <string name="already_user">Already registered? Login here</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="professional">Professional</string>
+    <string name="name">Enter your name</string>
+    <string name="email">Email</string>
+    <string name="signup">Signup</string>
+    <string name="Home_txt">This is Home Page</string>
+    <string name="hello_world">Hello World</string>
+    <string-array name="dropdown_items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- res/values/strings.xml -->
+
+    <!-- Fragment Index 1 Title -->
+    <string name="introduction_title">Introduction to Python</string>
+
+    <!-- Fragment Index 1 Content -->
+    <string name="introduction_content">
+    <b>🚀 Welcome to Python!</b>\n
+    Python is one of the most popular and versatile programming languages in the world. Whether you’re a beginner or an experienced developer, Python has something for everyone. Let’s dive in and explore why Python is so powerful!\n\n
+
+    <b>🌟 What is Python?</b>\n
+    Python is a high-level, interpreted programming language created by <b>Guido van Rossum</b> and first released in <b>1991</b>. It’s known for its simplicity and readability, making it a favorite among developers.\n\n
+
+    <b>💡 Key Features of Python:</b>\n
+    - <b>Easy to Learn:</b> Python’s syntax is simple and beginner-friendly.\n
+    - <b>Interpreted Language:</b> Code is executed line by line, making debugging easier.\n
+    - <b>Cross-Platform:</b> Runs on Windows, macOS, Linux, and more.\n
+    - <b>Large Standard Library:</b> Comes with tools for file handling, web scraping, and more.\n
+    - <b>Dynamically Typed:</b> No need to declare variable types explicitly.\n
+    - <b>Supports Multiple Paradigms:</b> Procedural, object-oriented, and functional programming.\n
+    - <b>Extensible:</b> Can be integrated with C, C++, and Java.\n\n
+
+    <b>🎯 Why Learn Python?</b>\n
+    - <b>High Demand:</b> Python is one of the most in-demand skills in the job market.\n
+    - <b>Versatility:</b> Used for web development, data science, AI, and more.\n
+    - <b>Community Support:</b> A large and active community for help and resources.\n
+    - <b>Rapid Development:</b> Build and prototype faster with Python’s simplicity.\n\n
+
+    <b>💼 Applications of Python:</b>\n
+    - <b>Web Development:</b> Frameworks like Django and Flask.\n
+    - <b>Data Science:</b> Libraries like Pandas, NumPy, and Matplotlib.\n
+    - <b>AI and Machine Learning:</b> Tools like TensorFlow, Keras, and Scikit-learn.\n
+    - <b>Automation:</b> Automate repetitive tasks with Python scripts.\n
+    - <b>Game Development:</b> Build games using Pygame.\n
+    - <b>Scientific Computing:</b> Libraries like SciPy and SymPy.\n\n
+
+    <b>👩‍💻 Python Syntax Example:</b>\n
+    Here’s a simple Python program to calculate the sum of two numbers:\n\n
+    <i># Input two numbers\n
+    num1 = float(input("Enter first number: "))\n
+    num2 = float(input("Enter second number: "))\n\n
+    # Calculate the sum\n
+    sum = num1 + num2\n\n
+    # Display the result\n
+    print("The sum is:", sum)</i>\n\n
+
+    <b>🚀 Getting Started with Python:</b>\n
+    - <b>Install Python:</b> Download from <a href="https://www.python.org/">python.org</a>.\n
+    - <b>Write Your First Program:</b> Use an IDE like PyCharm, VS Code, or Jupyter Notebook.\n
+    - <b>Run Your Code:</b> Execute scripts using the command line or an IDE.\n\n
+
+    <b>🌈 Conclusion:</b>\n
+    Python is a powerful, versatile, and beginner-friendly language. Whether you’re building websites, analyzing data, or creating AI models, Python has the tools to help you succeed. Start your Python journey today and unlock endless possibilities!\n\n
+
+    <b>📚 Next Steps:</b>\n
+    - Learn about <b>Python Variables and Data Types</b>.\n
+    - Explore <b>Control Structures</b> like loops and conditionals.\n
+    - Dive into <b>Functions and Modules</b> for reusable code.\n\n
+
+    <b>💬 Fun Fact:</b>\n
+    Did you know? Python is named after the British comedy group Monty Python, not the snake! 🐍
+</string>
+
+
+    <!-- Navigation Buttons -->
+    <string name="next_button">Next</string>
+    <string name="previous_button">Previous</string>
+    <string name="send_message">Send message</string>
+    <string name="ask_here">Ask Here</string>
+    <string name="progress_percentage">%d%%</string>
+    <string name="realusername">bhaveshsutar5</string>
+    <string name="intro_banner">Intro banner</string>
+    <string name="introimg">introimg</string>
+    <string name="intro_img">intro_img</string>
+
+
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Container for Profile Photo, Name, and Username -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/profile_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:paddingBottom="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Profile Photo -->
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/profileic"
+            android:contentDescription="Profile Image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Bhavesh Sutar"
+            android:textColor="@color/grey"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="@id/profile_image"
+            app:layout_constraintStart_toEndOf="@id/profile_image"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Username -->
+        <TextView
+            android:id="@+id/profile_username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Bhavesh"
+            android:textColor="@color/dark_grey"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@id/profile_name"
+            app:layout_constraintStart_toStartOf="@id/profile_name"
+            app:layout_constraintEnd_toEndOf="@id/profile_name" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- General Section -->
+    <TextView
+        android:id="@+id/general"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingStart="12dp"
+        android:text="General"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintTop_toBottomOf="@id/profile_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Edit Profile -->
+    <TextView
+        android:id="@+id/editprofile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Edit Profile"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/general"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Sound -->
+    <TextView
+        android:id="@+id/sound"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Sound"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/editprofile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Notifications and Reminders -->
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Notifications and Reminders"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/sound"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Extra Section -->
+    <TextView
+        android:id="@+id/extra"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="12dp"
+        android:layout_marginTop="30dp"
+        android:text="Extra"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintTop_toBottomOf="@id/notification"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Feedback and Support -->
+    <TextView
+        android:id="@+id/feedback"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Feedback and Support"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/extra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Terms and Conditions -->
+    <TextView
+        android:id="@+id/termsandconditions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Terms and Conditions"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/feedback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Logout Button -->
+    <TextView
+        android:id="@+id/logoutbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Logout"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/termsandconditions"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

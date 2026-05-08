@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Master Quiz"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnPython"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Python Quiz"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java Quiz"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnHtml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HTML Quiz"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnCss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSS Quiz"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnJs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JavaScript Quiz"/>
+
+</LinearLayout>
