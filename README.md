@@ -37,7 +37,13 @@ Other Tools
 - Retrofit API
 - Git & GitHub
 
-
+<img width="269" height="599" alt="image" src="https://github.com/user-attachments/assets/6b30a6db-403b-428b-a580-ea0f4e86c5d3" />
+<img width="269" height="599" alt="image" src="https://github.com/user-attachments/assets/6fe77830-a8cf-4949-b291-c70fb51a599b" />
+<img width="303" height="675" alt="image" src="https://github.com/user-attachments/assets/db5db906-e373-4863-b362-3a5f5915acf4" />
+<img width="300" height="669" alt="image" src="https://github.com/user-attachments/assets/acf7b358-27a4-452a-8682-9433da0ab072" />
+<img width="281" height="627" alt="image" src="https://github.com/user-attachments/assets/1e34d666-0ac4-471c-ab7d-40b4474d6d8d" />
+<img width="281" height="627" alt="image" src="https://github.com/user-attachments/assets/ff075e32-58d9-4150-8aa3-9b80b8c22453" />
+<img width="289" height="645" alt="image" src="https://github.com/user-attachments/assets/8920a9f3-c14c-4da8-833e-9dbea940ac3e" />
 
 ## Installation Steps
 
