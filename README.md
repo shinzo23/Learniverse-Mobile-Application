@@ -1,4 +1,4 @@
-Learniverse Application
+## Learniverse Application
 
 Learniverse is an Android-based learning platform designed to provide students with an interactive and modern educational experience.
 The application includes study materials, quizzes, coding programs, chatbot support, and user-friendly learning features.
